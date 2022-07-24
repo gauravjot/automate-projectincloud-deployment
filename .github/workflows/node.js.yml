@@ -35,3 +35,4 @@ jobs:
       with:
         source-path: build
         sas-url: ${{ secrets.DEPLOY_SAS_URL }}
+        container: builds
