@@ -31,7 +31,7 @@ jobs:
     - name: Azure Versioned Storage Upload
       uses: runlyio/azure-versioned-storage@v2.0.0
       with:
-        connectionString: ${{ secrets.DEPLOY_SAS_URL }}
+        connectionString: ${{ secrets.AZ_CONNECTION_STRING }}
         version: ${{ github.sha }}
         container: builds
         sourceDir: build
