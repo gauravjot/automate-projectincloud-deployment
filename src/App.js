@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import aroundjpg from './assets/around.jpg';
 
@@ -6,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={aroundjpg} />
+        <img src={aroundjpg} alt="logo"/>
         <p>
           What goes around come around ∞
         </p>
