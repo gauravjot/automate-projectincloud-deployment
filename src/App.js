@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          @Gauravjot 2022
+          @Gauravjot, Jonty 2022
         </a>
       </header>
     </div>
